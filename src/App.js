@@ -20,10 +20,10 @@ function App() {
   };
 
   return (
-    <div>
+    <React.Fragment>
       <AddUser onAddUser={addUserHandler} />
       <UsersList users={usersList} onDelete={deleteUserHandler}   />
-    </div>
+    </React.Fragment>
   );
 }
 
