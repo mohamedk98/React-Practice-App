@@ -14,6 +14,7 @@ function App() {
 
     setUsersList(prevUsersList =>{
       const updatedList =prevUsersList.filter(user=> {user.id === id})
+      console.log("test")
       return  updatedList
     })
 
